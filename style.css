@@ -87,6 +87,6 @@ input {
 
 input:active,
 input:focus {
-    outline: 1px solid var(--dark-color);
+    outline: none;
     background: var(--main-color);
 }
