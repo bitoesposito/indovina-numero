@@ -1,4 +1,5 @@
 const myNumber = Math.floor(Math.random() * 100) + 1
+let result = "";
 
 document.getElementById("submit").onclick = function () {
     const guessnumber = document.getElementById("guess").value;
@@ -20,6 +21,5 @@ document.getElementById("submit").onclick = function () {
 }
 
 
-document.getElementById("result").innerHTML = result;
 
-console.log(guessAsNumber);
+document.getElementById("result").innerHTML = result;

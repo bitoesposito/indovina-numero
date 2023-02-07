@@ -18,6 +18,10 @@ p {
     margin-bottom: 1rem;
 }
 
+h1 {
+    font-size: 1.5rem;
+}
+
 html,
 body {
     height: 100%;
@@ -27,8 +31,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 200px;
+    padding-top: 200px;
     text-align: center;
+}
+
+#result {
+    height: 30px;
 }
 
 .submit {
